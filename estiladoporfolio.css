@@ -4,8 +4,58 @@
 }
 
 body {
-    color: red;
-    font-size:large;
-    display: flex;
+    display:flex;
+    background-color: #faebd7;
+    flex-direction: column;
+    color:#D64B7C;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
 
+header nav {
+    box-shadow: 1px 1px 5px grey;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav a {
+    margin: 1%;
+    padding: 20px;
+}
+.contacto {
+    background-color: blueviolet;
+    border-radius: 25px;
+    padding: 20px 30px;
+}
+#hola {
+    display: flex;
+    padding: 5% 1% 1% 5%;
+    align-items: center;
+
+}
+.imagengatito {
+   max-width: 600px;
+}
+.Hola-info h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.Hola-info a {
+    background-color: blueviolet;
+    border-radius: 250px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#conocimientos{
+    background-color: #fdf7ef;
+    padding: 300px 200px;
+}
+section h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section p {
+    text-align:center;
 }
