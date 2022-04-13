@@ -4,9 +4,7 @@
 }
 
 body {
-    display:flex;
     background-color: #faebd7;
-    flex-direction: column;
     color:#D64B7C;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -17,18 +15,20 @@ header nav {
     display: flex;
     justify-content: flex-end;
     
+    
 }
 
 header nav a {
     margin: 1%;
     padding: 20px;
+    text-decoration: none;
 }
 .contacto {
     background-color: blueviolet;
     border-radius: 25px;
     padding: 20px 30px;
 }
-#hola {
+.contenedor-hola {
     display: flex;
     padding: 5% 1% 1% 5%;
     align-items: center;
@@ -47,13 +47,14 @@ header nav a {
     padding: 15px 20px;
     text-decoration: none;
 }
-#conocimientos{
+.contenedor-conocimientos{
     background-color: #fdf7ef;
     padding: 300px 200px;
 }
 section h2{
     font-weight: 700;
     font-size: 40px;
+    text-align: center;
 }
 
 section p {
