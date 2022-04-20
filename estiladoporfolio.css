@@ -23,10 +23,20 @@ header nav a {
     padding: 20px;
     text-decoration: none;
 }
+header nav a:hover{
+    color:whitesmoke;
+    font-weight: bold;
+    border-radius:100px;
+    box-shadow:#B5B8A3 20px 10px;
+    background-color: #AA7DCE;
+
+}
+
+
 .contacto {
-    background-color: blueviolet;
     border-radius: 25px;
     padding: 20px 30px;
+    box-shadow:#B5B8A3;
 }
 .contenedor-hola {
     display: flex;
@@ -41,22 +51,78 @@ header nav a {
     font-size: 60px;
     font-weight: bold;
 }
+.hola {
+    text-align:start;
+}
 .Hola-info a {
-    background-color: blueviolet;
+    background-color: #95BF8F;
     border-radius: 250px;
-    padding: 15px 20px;
+    padding: 10px 25px;
     text-decoration: none;
+    font-weight: bold;
 }
 .contenedor-conocimientos{
     background-color: #fdf7ef;
-    padding: 300px 200px;
+    padding: 100px 200px;
+    
+
 }
-section h2{
-    font-weight: 700;
+.titulo-seccion{
+    font-weight: 700px;
     font-size: 40px;
     text-align: center;
+
 }
 
 section p {
     text-align:center;
+}
+.tarjeta {
+margin:7%;
+padding: 4%;
+height:9%;
+background: white;
+border: violet solid 1px;
+}
+.tarjeta h2 {
+    font-size: 30px;
+    color: black;
+}
+.contenedor-flexbox{
+    display: flex;
+}
+.contenedor-tarjetas i{
+    font-size: 100px;
+}
+.cita {
+    padding: 130px;
+    text-align: center;
+    background-color: #F0E2E7;
+}
+.cita img{
+    border-radius:50%;
+    width: 150px;
+    height:150px;
+    
+}
+.cita-magali{
+    margin:10px;
+    font-style: italic;
+    font-weight:bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cita h2 {
+    color: black;
+}
+#proyectos{
+    text-align: center;
+}
+#proyectos h2{
+    font-size: 50px;
+    margin-top: 100px;
+}
+#proyectos p{
+    margin-top: 10px;
 }
