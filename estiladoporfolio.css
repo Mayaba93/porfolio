@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Barra de navegacion */
 header nav {
     box-shadow: 1px 1px 5px grey;
     display: flex;
@@ -20,7 +21,7 @@ header nav {
 
 header nav a {
     margin: 1%;
-    padding: 20px;
+    padding: 1%;
     text-decoration: none;
 }
 header nav a:hover{
@@ -31,13 +32,7 @@ header nav a:hover{
     background-color: #AA7DCE;
 
 }
-
-
-.contacto {
-    border-radius: 25px;
-    padding: 20px 30px;
-    box-shadow:#B5B8A3;
-}
+/* seccion presentacion */
 .contenedor-hola {
     display: flex;
     padding: 5% 1% 1% 5%;
@@ -54,17 +49,24 @@ header nav a:hover{
 .hola {
     text-align:start;
 }
+
+.contenedor-conoceme{
+    display: flex;
+    justify-content: center;
+
+}
 .Hola-info a {
     background-color: #95BF8F;
     border-radius: 250px;
-    padding: 10px 25px;
+    padding: 2% 3%;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
+/* seccion conocimientos */
 .contenedor-conocimientos{
     background-color: #fdf7ef;
-    padding: 100px 200px;
-    
+    padding: 10% 20%; 
 
 }
 .titulo-seccion{
@@ -83,7 +85,12 @@ padding: 4%;
 height:9%;
 background: white;
 border: violet solid 1px;
+
 }
+.tarjeta:hover{
+    box-shadow:10px 10px 10px 10px #ffbba8;
+}
+    
 .tarjeta h2 {
     font-size: 30px;
     color: black;
@@ -94,19 +101,21 @@ border: violet solid 1px;
 .contenedor-tarjetas i{
     font-size: 100px;
 }
+/* seccion cita */
 .cita {
-    padding: 130px;
+    padding: 10%;
     text-align: center;
     background-color: #F0E2E7;
 }
 .cita img{
     border-radius:50%;
-    width: 150px;
-    height:150px;
+    width: 13%;
+    height:13%;
     
 }
 .cita-magali{
     margin:10px;
+    padding: 10px;
     font-style: italic;
     font-weight:bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -116,6 +125,7 @@ border: violet solid 1px;
 .cita h2 {
     color: black;
 }
+/* seccion proyectos */
 #proyectos{
     text-align: center;
 }
@@ -124,5 +134,10 @@ border: violet solid 1px;
     margin-top: 100px;
 }
 #proyectos p{
-    margin-top: 10px;
+    margin-top: 2%;
 }
+.contenedor-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
