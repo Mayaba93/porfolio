@@ -140,4 +140,9 @@ border: violet solid 1px;
     display: flex;
     justify-content: center;
 }
-
+/* seccion contacto */
+.formulario{
+    background-color: aliceblue;
+    margin top: 2%;
+    padding:1%;
+}
