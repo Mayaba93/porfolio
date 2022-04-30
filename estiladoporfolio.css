@@ -10,7 +10,8 @@ body {
     box-sizing: border-box;
 }
 
-/* Barra de navegacion */
+/*********************************************************************************************************************                                          Barra de navegacion *********************************************************************************************************************/
+
 header nav {
     box-shadow: 1px 1px 5px grey;
     display: flex;
@@ -32,7 +33,7 @@ header nav a:hover{
     background-color: #AA7DCE;
 
 }
-/* seccion presentacion */
+/*********************************************************************************************************************                                              seccion presentacion *********************************************************************************************************************/
 .contenedor-hola {
     display: flex;
     padding: 5% 1% 1% 5%;
@@ -63,7 +64,10 @@ header nav a:hover{
     font-weight: bold;
     text-align: center;
 }
-/* seccion conocimientos */
+/*********************************************************************************************************************
+                                            seccion conocimientos
+*********************************************************************************************************************
+*/
 .contenedor-conocimientos{
     background-color: #fdf7ef;
     padding: 10% 20%; 
@@ -101,7 +105,9 @@ border: violet solid 1px;
 .contenedor-tarjetas i{
     font-size: 100px;
 }
-/* seccion cita */
+/* *********************************************************************************************************************
+                                                    Seccion cita
+********************************************************************************************************************* */
 .cita {
     padding: 10%;
     text-align: center;
@@ -125,7 +131,7 @@ border: violet solid 1px;
 .cita h2 {
     color: black;
 }
-/* seccion proyectos */
+/*********************************************************************************************************************                                                  seccion proyectos *********************************************************************************************************************/
 #proyectos{
     text-align: center;
 }
@@ -140,9 +146,39 @@ border: violet solid 1px;
     display: flex;
     justify-content: center;
 }
-/* seccion contacto */
+/*********************************************************************************************************************
+                                                  seccion contacto
+*********************************************************************************************************************
+*/
 .formulario{
     background-color: aliceblue;
-    margin top: 2%;
-    padding:1%;
+    padding: 5%;
 }
+.contenedor-formulario{
+    background-color: #ffbba8;
+    display: flex;
+    justify-content: center;
+    border: #D64B7C 1px solid;
+    text-align: left;
+
+}
+.formulario h2{
+    font-weight: bold;
+    color: black;
+    font-size:2em;
+}
+
+.contactame{
+    width: 50%;
+
+}
+
+.contactame p{
+    color: black;
+    text-align: left;
+}
+.escribir-mensaje{
+    text-align: left;
+    width: 50%;
+}
+

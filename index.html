@@ -34,7 +34,7 @@
         <h2 class="hola">¡Hola soy</h2>
         <br>
         <h1>Magali Baez!</h1>
-        <br />
+        <br/>
         <p>
           Fanatica de aprender y enseñar,curiosa sin remedio y fanatica de los
           gatitos. Programadora en desarrollo...
@@ -78,7 +78,7 @@
       </div>
     </section>
     <section class="cita">
-        <img src="magui.jpg" alt="Foto  de Magali">
+        <img src="Magui.jpg" alt="Foto  de Magali">
         <blockquote class="cita-magali">
             "La verdadera batalla, la tenemos con nosotros mismos cuando decidimos vencer nuestros miedos y nuestras inseguridades para hacernos más fuertes."
 
@@ -101,31 +101,35 @@
     </section>
 
     <section class="formulario" id="contacto">
-      <div class="contactame>"
-      <h2> Contactame</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque aperiam possimus iure illum eum reprehenderit, deserunt fugiat quisquam quidem libero reiciendis. Nesciunt atque nisi nam ipsum cum rem exercitationem eius!</p>
-      <form>
-        <fieldset>
-          <legend class="escribime">
-          Escribime
-          </legend>
-          <div class="nombre-apellido">
+      <div class="contenedor-formulario">
+        <div class="contactame">
+        <h2> Contactame</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque aperiam possimus iure illum eum reprehenderit, deserunt fugiat quisquam quidem libero reiciendis. Nesciunt atque nisi nam ipsum cum rem exercitationem eius!</p>
+        </div>
+        <div class="Escribir-mensaje">
+        <h2>Escribime</h2>
+        <form>
+          <div class="flex-formulario">
+          <div class="datos-formulario">
           <label for="nombre">Nombre</label>
             <input type="text" id="nombre" required placeholder="Escribi tu nombre">
+          </div>
+          <div class="datos-formulario">
             <label for="apellido">Apellido</label>
             <input type="text" id="apellido" size="15" maxlength="10" required placeholder="Escribi tu apellido">
           </div>
+          </div>
           <div class="email">
             <label for="email">Email</label>
-            <input type="text" id="email" require placeholder="Escribi tu email">
+            <input type="text" id="email" required placeholder="Escribi tu email">
           </div>
           <div class="mensaje">
           <label for="mensaje">Mensaje</label>
             <input type="text" id="mensaje" required placeholder="Escribi tu mensaje aquí">
           </div>
-        </fieldset>
-      </form>
-
+        </form>
+      </div>
+      </div>
     </section>
     <footer>
         <nav>
