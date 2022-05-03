@@ -150,35 +150,28 @@ border: violet solid 1px;
                                                   seccion contacto
 *********************************************************************************************************************
 */
-.formulario{
-    background-color: aliceblue;
-    padding: 5%;
-}
-.contenedor-formulario{
-    background-color: #ffbba8;
+.formulario {
+    background-color:aliceblue;
+    padding: 2%;
     display: flex;
-    justify-content: center;
-    border: #D64B7C 1px solid;
-    text-align: left;
 
 }
-.formulario h2{
+.contactame h2{
+    text-align:center;
+    color: black;
     font-weight: bold;
-    color: black;
-    font-size:2em;
 }
-
-.contactame{
-    width: 50%;
+.button-estilado{
+    margin:7%;
+    text-decoration:none;
+    font-size:20px;
+}
+.button-estilado a:hover{
+    background-color:#AA7DCE;
+    border-radius: 25%;
 
 }
-
-.contactame p{
-    color: black;
-    text-align: left;
+.Escribir-mensaje{
+    padding: 5%;
+    text-align: center;
 }
-.escribir-mensaje{
-    text-align: left;
-    width: 50%;
-}
-
