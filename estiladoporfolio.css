@@ -56,9 +56,14 @@ header nav a:hover {
     text-align: start;
 }
 
-.contenedor-conoceme {
+.contenedor-conoceme{
     display: flex;
     justify-content: center;
+
+}
+.contenedor-conoceme :hover{
+    background-color:#AA7DCE;
+    color:#D64B7C;
 
 }
 
@@ -203,6 +208,7 @@ header nav a:hover {
 }
 .button-estilado i{
     font-size: 25px;
+
 }
 .button-estilado:hover {
     background-color: aliceblue;
@@ -213,6 +219,7 @@ header nav a:hover {
 .button-estilado a {
     text-decoration: none;
     color:black;
+    font-weight: bold;
 }
 
 .Escribir-mensaje h2{
@@ -238,4 +245,27 @@ input , textarea{
 
 .boton-enviar input{
     background-color: #AA7DCE;
+}
+.boton-enviar input:hover{
+    border:aqua 1px solid;
+    color:#D64B7C;
+    font-weight: bold;
+}
+.footer-decoracion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 70px 17px 50 px;
+background-color: #ffbba8;
+margin-top: 2%;
+}
+.footer-iconos{
+    display: flex;
+}
+.nav-decoracion a{
+    text-decoration: none;
+}
+.autor-magali span{
+    flex-direction: column;
 }
