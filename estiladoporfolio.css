@@ -1,36 +1,42 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #faebd7;
-    color: #D64B7C;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
-/*********************************************************************************************************************                                          Barra de navegacion *********************************************************************************************************************/
 
-header nav {
-    box-shadow: 1px 1px 5px grey;
+/*********************************************************************************************************************                                          Barra de navegacion *********************************************************************************************************************/
+a {
+    text-decoration: none
+}
+ul{
+    list-style: none;
+}
+header, nav {
+    position:fixed;
+    width: 100%;
+}
+.Menu-principal {
+    box-shadow: 1px 1px 10px 5px grey;
     display: flex;
     justify-content: flex-end;
-
-
+    padding: 2%;
+    width: 100%;
+    background-color: #faebd7;
+    
+}
+.boton-nav{
+    margin-right: 5%;
 }
 
-header nav a {
-    margin: 1%;
-    padding: 1%;
-    text-decoration: none;
-}
 
-header nav a:hover {
+
+.boton-nav :hover {
     color: whitesmoke;
     font-weight: bold;
     border-radius: 100px;
-    box-shadow: #B5B8A3 20px 10px;
+    box-shadow: #a5a5a3 20px 10px 10px;
     background-color: #AA7DCE;
 
 }
@@ -38,65 +44,77 @@ header nav a:hover {
 /*********************************************************************************************************************                                              seccion presentacion *********************************************************************************************************************/
 .contenedor-hola {
     display: flex;
-    padding: 5% 1% 1% 5%;
-    align-items: center;
-
+    padding: 10% 5%;
+    width:100%;
+    background-color:brown;
 }
 
-.imagengatito {
-    max-width: 600px;
-}
 
-.Hola-info h1 {
-    font-size: 60px;
-    font-weight: bold;
+.Hola-info{
+    align-items:center;
+    width:50%;
+    background-color:#ce7d8f;
 }
-
 .hola {
     text-align: start;
 }
-
-.contenedor-conoceme{
-    display: flex;
-    justify-content: center;
-
-}
-.contenedor-conoceme :hover{
-    background-color:#AA7DCE;
-    color:#D64B7C;
-
-}
-
-.Hola-info a {
-    background-color: #95BF8F;
-    border-radius: 250px;
-    padding: 2% 3%;
-    text-decoration: none;
+.Hola-info h1 {
+    font-size: 60px;
     font-weight: bold;
-    text-align: center;
+
 }
+.contenedor-conoceme{
+    width: 100%;
+    background-color: rgb(9, 255, 0);
+    padding:2%;
+    text-align: center;
+    margin: 5% 0%;
+
+}
+.boton-conoceme{
+    width: 15%;
+    background-color:violet;
+    padding:1%;
+    border-radius: 2em;
+}
+.imagen{
+    width:50%;
+    background-color: yellow;
+    text-align:center;
+}
+.imagengatito {
+    background-color: aqua;
+    width: 90%;
+}
+
 
 /*********************************************************************************************************************
                                             seccion conocimientos
 *********************************************************************************************************************
 */
 .contenedor-conocimientos {
-    background-color: #fdf7ef;
-    padding: 10% 20%;
-
+    background-color: #afac00;
+    padding: 5% 5%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
 }
 .contenedor-conocimientos p{
     text-align: center;
 }
 
 .titulo-seccion {
-    font-weight: 700px;
     font-size: 40px;
     text-align: center;
 
 }
 
-
+.contenedor-tarjetas{
+    width: 80%;
+    background-color: green;
+}
 .tarjeta {
     margin: 7%;
     padding: 4%;
@@ -130,6 +148,7 @@ header nav a:hover {
     padding: 10%;
     text-align: center;
     background-color: #F0E2E7;
+    width: 100%;
 }
 
 .cita img {
@@ -153,22 +172,28 @@ header nav a:hover {
 }
 
 /*********************************************************************************************************************                                                  seccion proyectos *********************************************************************************************************************/
-#proyectos {
+.proyectos {
     text-align: center;
+    background-color: #afac00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
-#proyectos h2 {
+.proyectos h2 {
     font-size: 50px;
     margin-top: 100px;
 }
 
-#proyectos p {
+.proyectos p {
     margin-top: 2%;
 }
 
 .contenedor-flexbox {
     display: flex;
     justify-content: center;
+    background-color: #D64B7C;
 }
 
 /*********************************************************************************************************************
@@ -178,16 +203,22 @@ header nav a:hover {
 .formulario {
     background-color: aliceblue;
     padding:7% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .estilado-formulario{
     background-color:rgb(233, 199, 199);
     padding: 2%;
     display: flex;
     border-radius:40px;
-    justify-content: space-evenly;
     border: #AA7DCE solid 1px;
+    width: 80%;
 }
-
+.contactame{
+    background-color:red;
+    width:50%;
+}
 .contactame h2{
     color: black;
     font-weight: bold;
@@ -213,22 +244,31 @@ header nav a:hover {
 .button-estilado:hover {
     background-color: aliceblue;
     border-radius: 25px;
+    width: 100%;
+    color:#AA7DCE;
 
 }
 
 .button-estilado a {
-    text-decoration: none;
     color:black;
     font-weight: bold;
+    margin:0 2%;
 }
-
+.Escribir-mensaje{
+    width: 50%;
+    background-color:orange;
+    /* text-align: center; */
+}
 .Escribir-mensaje h2{
     color:black;
     font-size: 30px;
 }
 .flex-formulario{
     display: flex;
+    background-color: crimson;
+    width: 100%;
 }
+
 
 .datos-formulario{
     margin:3% 3% 3% 0%;
@@ -243,7 +283,12 @@ input , textarea{
     padding: 5px;
 }
 
-.boton-enviar input{
+.boton-enviar{
+    background-color: #AA7DCE;
+    width: 100%;
+    text-align:center;
+}
+.button{
     background-color: #AA7DCE;
 }
 .boton-enviar input:hover{
@@ -253,19 +298,74 @@ input , textarea{
 }
 .footer-decoracion{
 display: flex;
-flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 70px 17px 50 px;
+flex-direction: column;
 background-color: #ffbba8;
-margin-top: 2%;
 }
-.footer-iconos{
+.menu-footer{
+    background-color:#AA7DCE;
+    color:black;
+    padding: 1%;
+    width: 70%;
     display: flex;
+    justify-content: space-evenly;
 }
-.nav-decoracion a{
-    text-decoration: none;
+.boton-footer :hover{
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 100px;
+    box-shadow: #a5a5a3 20px 10px 10px;
+    background-color: #ce7d8f;
+    padding: 2%;
 }
-.autor-magali span{
-    flex-direction: column;
+
+
+.footer-iconos {
+    display: flex;
+    padding:1%;
+    width: 25%;
+    justify-content:space-between;
+    margin: 2% 0%;
+      
+}
+.boton-icon-footer {
+    border-radius: 50%;
+    padding: 5%;
+}
+.icono-footer{  
+    color: #AA7DCE;
+    border-radius: 50%;
+    font-size:2em;
+    padding:0%
+    
+}
+.boton-icon-footer :hover{
+    border-radius: 50%;
+    color:#D64B7C
+
+}
+
+.autor-magali {
+    margin:2%;
+    flex-direction:block;
+}
+@media screen and (max-width: 800px) and (min-width: 450px){
+    header , nav{
+        display:none;
+    }
+  .contenedor-hola{
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+      width:100%;
+
+  }
+  .Hola-info{
+      width: 100%;
+  }
+  .imagen{
+      width:100%;
+  }
+      
 }
