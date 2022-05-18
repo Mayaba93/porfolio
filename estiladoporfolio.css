@@ -491,6 +491,7 @@ textarea {
     .estilado-formulario {
         flex-direction: column;
         width: 100%;
+        border-radius:0px;
     }
 
     .contactame {
